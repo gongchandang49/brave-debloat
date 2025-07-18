@@ -2,13 +2,14 @@ chromeExtensions: &chromeExtensions
   ExtensionManifestV2Availability: 2
   ExtensionInstallForcelist:
   - cjpalhdlnbpafiamejdnhcphjbkeiagm # uBlock Origin; Chrome Web Store
-  - fhcgjolkccmbidfldomjliifgaodjagh # Cookie AutoDelete; Chrome Web Store
-  - nkgllhigpcljnhoakjkgaieabnkmgdkb # Don't f*** with paste; Chrome Web Store
-  - edibdbjcniadpccecjdfdjjppcpchdlm # I still don't care about cookies; Chrome Web Store
-  - mnjggcdmjocbbbhaepdhchncahnbgone # SponsorBlock; Chrome Web Store
-  - bbeaicapbccfllodepmimpkgecanonai # BlockTube; Chrome Web Store
-  - jaadjnlkjnhohljficgoddcjmndjfdmi # Blank Tab; Chrome Web Store
-  - ldpochfccmkkmhdbclfhpagapcfdljkj # Decentraleyes; Chrome Web Store
+  - eimadpbcbfnmbkopoojfekhnkhdbieeh # Dark Reader
+  - mpbjkejclgfgadiemmefgebjfooflfhl # Buster ReCaptcha Solver
+  - jinjaccalgkegednnccohejagnlnfdag # Violentmonkey
+  - padekgcemlokbadohgkifijomclgjgif # Proxy SwitchyOmega
+  - hlkenndednhfkekhgcdicdfddnkalmdm # Cookie-Editor
+  - aefehdhdciieocakfobpaaolhipkcpgc # Simple Allow Copy
+  - bpoadfkcbjbfhfodiogcnhhhpibjhbnh # Immersive Translate
+  - ikkeapgomkpbcpaiompapjdlhmafgkpg # PDF color inverter (useful when dark reader doesn't work)
 
 # https://chromeenterprise.google/policies/
 chrome: &chrome
@@ -58,7 +59,7 @@ chrome: &chrome
   ParcelTrackingEnabled: false
   RelatedWebsiteSetsEnabled: false
   ShoppingListEnabled: false
-  SyncDisabled: true
+  #SyncDisabled: true
 
 # https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy
 brave: &brave
@@ -68,7 +69,7 @@ brave: &brave
   BraveWalletDisabled: true
   BraveVPNDisabled: true
   BraveAIChatEnabled: false
-  BraveSyncUrl: ""
+  #BraveSyncUrl: ""
 
 # https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 edge: &edge
