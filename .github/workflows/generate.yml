@@ -10,11 +10,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -23,3 +26,11 @@ jobs:
 
       - name: Generate configurations
         run: uv run main.py
+
+      - name: Commit and push generated files
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add generated/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update generated files [skip ci]" && git push)
