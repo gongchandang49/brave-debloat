@@ -134,12 +134,13 @@
     "*": {
       "installation_mode": "normal",
       "file_access": "force_on",
-      "run_in_incognito": "force_on"
+      "run_in_incognito": "force_on",
+      "initial_state": "enabled"
     },
-    "cjpalhdlnbpafiamejdnhcphjbkeiagm": null,
-    "eimadpbcbfnmbkopoojfekhnkhdbieeh": null,
-    "mpbjkejclgfgadiemmefgebjfooflfhl": null,
-    "jinjaccalgkegednnccohejagnlnfdag": null,
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm": {},
+    "eimadpbcbfnmbkopoojfekhnkhdbieeh": {},
+    "mpbjkejclgfgadiemmefgebjfooflfhl": {},
+    "jinjaccalgkegednnccohejagnlnfdag": {},
     "padekgcemlokbadohgkifijomclgjgif": {
       "initial_state": "disabled"
     },
