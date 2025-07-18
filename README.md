@@ -1,4 +1,4 @@
-# Chrome Debloat
+# Brave Debloat
 
 A tool to generate policies for Chromium-based browsers (Chrome, Brave, and Edge) that disable unnecessary features, telemetry, and bloatware while enabling some quality-of-life improvements.
 
