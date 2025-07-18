@@ -107,63 +107,12 @@
 			<false/>
 			<key>ExtensionManifestV2Availability</key>
 			<integer>2</integer>
-			<key>ExtensionSettings</key>
-			<dict>
-				<key>*</key>
-				<dict>
-					<key>installation_mode</key>
-					<string>normal</string>
-					<key>file_access</key>
-					<string>force_on</string>
-					<key>run_in_incognito</key>
-					<string>force_on</string>
-					<key>initial_state</key>
-					<string>enabled</string>
-				</dict>
-				<key>cjpalhdlnbpafiamejdnhcphjbkeiagm</key>
-				<dict/>
-				<key>eimadpbcbfnmbkopoojfekhnkhdbieeh</key>
-				<dict/>
-				<key>mpbjkejclgfgadiemmefgebjfooflfhl</key>
-				<dict/>
-				<key>jinjaccalgkegednnccohejagnlnfdag</key>
-				<dict/>
-				<key>padekgcemlokbadohgkifijomclgjgif</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>hlkenndednhfkekhgcdicdfddnkalmdm</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>aefehdhdciieocakfobpaaolhipkcpgc</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>bpoadfkcbjbfhfodiogcnhhhpibjhbnh</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>ikkeapgomkpbcpaiompapjdlhmafgkpg</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>bhghoamapcdpbohphigoooaddinpkbai</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-				<key>ncndcebmkibkhopclfdjfacgfholcghi</key>
-				<dict>
-					<key>initial_state</key>
-					<string>disabled</string>
-				</dict>
-			</dict>
+			<key>ExtensionInstallForcelist</key>
+			<array>
+				<string>cjpalhdlnbpafiamejdnhcphjbkeiagm</string>
+				<string>eimadpbcbfnmbkopoojfekhnkhdbieeh</string>
+				<string>mpbjkejclgfgadiemmefgebjfooflfhl</string>
+			</array>
 		</dict>
 	</array>
 </dict>
