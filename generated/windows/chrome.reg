@@ -36,15 +36,15 @@ Windows Registry Editor Version 5.00
 "ParcelTrackingEnabled"=dword:00000000
 "RelatedWebsiteSetsEnabled"=dword:00000000
 "ShoppingListEnabled"=dword:00000000
-"SyncDisabled"=dword:00000001
 "ExtensionManifestV2Availability"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
 "1"="cjpalhdlnbpafiamejdnhcphjbkeiagm"
-"2"="fhcgjolkccmbidfldomjliifgaodjagh"
-"3"="nkgllhigpcljnhoakjkgaieabnkmgdkb"
-"4"="edibdbjcniadpccecjdfdjjppcpchdlm"
-"5"="mnjggcdmjocbbbhaepdhchncahnbgone"
-"6"="bbeaicapbccfllodepmimpkgecanonai"
-"7"="jaadjnlkjnhohljficgoddcjmndjfdmi"
-"8"="ldpochfccmkkmhdbclfhpagapcfdljkj"
+"2"="eimadpbcbfnmbkopoojfekhnkhdbieeh"
+"3"="mpbjkejclgfgadiemmefgebjfooflfhl"
+"4"="jinjaccalgkegednnccohejagnlnfdag"
+"5"="padekgcemlokbadohgkifijomclgjgif"
+"6"="hlkenndednhfkekhgcdicdfddnkalmdm"
+"7"="aefehdhdciieocakfobpaaolhipkcpgc"
+"8"="bpoadfkcbjbfhfodiogcnhhhpibjhbnh"
+"9"="ikkeapgomkpbcpaiompapjdlhmafgkpg"

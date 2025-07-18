@@ -282,8 +282,6 @@
 			<false/>
 			<key>ShoppingListEnabled</key>
 			<false/>
-			<key>SyncDisabled</key>
-			<true/>
 			<key>ExtensionManifestV2Availability</key>
 			<integer>2</integer>
 		</dict>

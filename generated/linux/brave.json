@@ -4,7 +4,6 @@
   "BraveWalletDisabled": true,
   "BraveVPNDisabled": true,
   "BraveAIChatEnabled": false,
-  "BraveSyncUrl": "",
   "DefaultGeolocationSetting": 2,
   "DefaultNotificationsSetting": 2,
   "DefaultLocalFontsSetting": 2,
@@ -44,16 +43,16 @@
   "ParcelTrackingEnabled": false,
   "RelatedWebsiteSetsEnabled": false,
   "ShoppingListEnabled": false,
-  "SyncDisabled": true,
   "ExtensionManifestV2Availability": 2,
   "ExtensionInstallForcelist": [
     "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-    "fhcgjolkccmbidfldomjliifgaodjagh",
-    "nkgllhigpcljnhoakjkgaieabnkmgdkb",
-    "edibdbjcniadpccecjdfdjjppcpchdlm",
-    "mnjggcdmjocbbbhaepdhchncahnbgone",
-    "bbeaicapbccfllodepmimpkgecanonai",
-    "jaadjnlkjnhohljficgoddcjmndjfdmi",
-    "ldpochfccmkkmhdbclfhpagapcfdljkj"
+    "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+    "mpbjkejclgfgadiemmefgebjfooflfhl",
+    "jinjaccalgkegednnccohejagnlnfdag",
+    "padekgcemlokbadohgkifijomclgjgif",
+    "hlkenndednhfkekhgcdicdfddnkalmdm",
+    "aefehdhdciieocakfobpaaolhipkcpgc",
+    "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+    "ikkeapgomkpbcpaiompapjdlhmafgkpg"
   ]
 }

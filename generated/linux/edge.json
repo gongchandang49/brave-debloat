@@ -129,6 +129,5 @@
   "MetricsReportingEnabled": false,
   "ParcelTrackingEnabled": false,
   "ShoppingListEnabled": false,
-  "SyncDisabled": true,
   "ExtensionManifestV2Availability": 2
 }
