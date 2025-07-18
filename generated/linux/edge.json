@@ -129,5 +129,12 @@
   "MetricsReportingEnabled": false,
   "ParcelTrackingEnabled": false,
   "ShoppingListEnabled": false,
-  "ExtensionManifestV2Availability": 2
+  "ExtensionManifestV2Availability": 2,
+  "ExtensionInstallAllowlist": [
+    "padekgcemlokbadohgkifijomclgjgif",
+    "hlkenndednhfkekhgcdicdfddnkalmdm",
+    "aefehdhdciieocakfobpaaolhipkcpgc",
+    "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+    "ikkeapgomkpbcpaiompapjdlhmafgkpg"
+  ]
 }

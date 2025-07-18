@@ -284,6 +284,14 @@
 			<false/>
 			<key>ExtensionManifestV2Availability</key>
 			<integer>2</integer>
+			<key>ExtensionInstallAllowlist</key>
+			<array>
+				<string>padekgcemlokbadohgkifijomclgjgif</string>
+				<string>hlkenndednhfkekhgcdicdfddnkalmdm</string>
+				<string>aefehdhdciieocakfobpaaolhipkcpgc</string>
+				<string>bpoadfkcbjbfhfodiogcnhhhpibjhbnh</string>
+				<string>ikkeapgomkpbcpaiompapjdlhmafgkpg</string>
+			</array>
 		</dict>
 	</array>
 </dict>
