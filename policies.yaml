@@ -5,12 +5,13 @@ chromeExtensions: &chromeExtensions
       installation_mode: "normal"  # Allows user to enable/disable
       file_access: "force_on"
       run_in_incognito: "force_on"
+      initial_state: "enabled"
 
     # Extensions to install ENABLED by default
-    "cjpalhdlnbpafiamejdnhcphjbkeiagm":  # uBlock Origin
-    "eimadpbcbfnmbkopoojfekhnkhdbieeh":  # Dark Reader
-    "mpbjkejclgfgadiemmefgebjfooflfhl":  # Buster
-    "jinjaccalgkegednnccohejagnlnfdag":  # Violentmonkey
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm": {}  # uBlock Origin
+    "eimadpbcbfnmbkopoojfekhnkhdbieeh": {}  # Dark Reader
+    "mpbjkejclgfgadiemmefgebjfooflfhl": {}  # Buster
+    "jinjaccalgkegednnccohejagnlnfdag": {}  # Violentmonkey
     
     # Extensions to install DISABLED by default
     "padekgcemlokbadohgkifijomclgjgif":  # Proxy SwitchyOmega
