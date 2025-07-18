@@ -1,16 +1,32 @@
 chromeExtensions: &chromeExtensions
   ExtensionManifestV2Availability: 2
-  ExtensionInstallForcelist:
-  - cjpalhdlnbpafiamejdnhcphjbkeiagm # uBlock Origin; Chrome Web Store
-  - eimadpbcbfnmbkopoojfekhnkhdbieeh # Dark Reader
-  - mpbjkejclgfgadiemmefgebjfooflfhl # Buster ReCaptcha Solver
-  - jinjaccalgkegednnccohejagnlnfdag # Violentmonkey
-  ExtensionInstallAllowlist:
-  - padekgcemlokbadohgkifijomclgjgif # Proxy SwitchyOmega
-  - hlkenndednhfkekhgcdicdfddnkalmdm # Cookie-Editor
-  - aefehdhdciieocakfobpaaolhipkcpgc # Simple Allow Copy
-  - bpoadfkcbjbfhfodiogcnhhhpibjhbnh # Immersive Translate
-  - ikkeapgomkpbcpaiompapjdlhmafgkpg # PDF color inverter (useful when dark reader doesn't work)
+  ExtensionSettings:
+    "*":
+      installation_mode: "normal"  # Allows user to enable/disable
+      file_access: "force_on"
+      run_in_incognito: "force_on"
+
+    # Extensions to install ENABLED by default
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm":  # uBlock Origin
+    "eimadpbcbfnmbkopoojfekhnkhdbieeh":  # Dark Reader
+    "mpbjkejclgfgadiemmefgebjfooflfhl":  # Buster
+    "jinjaccalgkegednnccohejagnlnfdag":  # Violentmonkey
+    
+    # Extensions to install DISABLED by default
+    "padekgcemlokbadohgkifijomclgjgif":  # Proxy SwitchyOmega
+      initial_state: "disabled"
+    "hlkenndednhfkekhgcdicdfddnkalmdm":  # Cookie-Editor
+      initial_state: "disabled"
+    "aefehdhdciieocakfobpaaolhipkcpgc":  # Simple Allow Copy
+      initial_state: "disabled"
+    "bpoadfkcbjbfhfodiogcnhhhpibjhbnh":  # Immersive Translate
+      initial_state: "disabled"
+    "ikkeapgomkpbcpaiompapjdlhmafgkpg":  # PDF color inverter
+      initial_state: "disabled"
+    "bhghoamapcdpbohphigoooaddinpkbai":  # Authenticator
+      initial_state: "disabled"
+    "ncndcebmkibkhopclfdjfacgfholcghi":  # Google Images Restored
+      initial_state: "disabled"
 
 # https://chromeenterprise.google/policies/
 chrome: &chrome
