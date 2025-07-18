@@ -5,6 +5,7 @@ chromeExtensions: &chromeExtensions
   - eimadpbcbfnmbkopoojfekhnkhdbieeh # Dark Reader
   - mpbjkejclgfgadiemmefgebjfooflfhl # Buster ReCaptcha Solver
   - jinjaccalgkegednnccohejagnlnfdag # Violentmonkey
+  ExtensionInstallAllowlist:
   - padekgcemlokbadohgkifijomclgjgif # Proxy SwitchyOmega
   - hlkenndednhfkekhgcdicdfddnkalmdm # Cookie-Editor
   - aefehdhdciieocakfobpaaolhipkcpgc # Simple Allow Copy
