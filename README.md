@@ -90,7 +90,3 @@ If you want to customize the policies:
 - [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)
 - [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)
 - [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)
-
-## License
-
-[Apache 2.0](./LICENSE)
