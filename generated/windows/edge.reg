@@ -123,15 +123,22 @@ Windows Registry Editor Version 5.00
 "ShoppingListEnabled"=dword:00000000
 "ExtensionManifestV2Availability"=dword:00000002
 
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionSettings]
+"*"="{'installation_mode': 'normal', 'file_access': 'force_on', 'run_in_incognito': 'force_on'}"
+"cjpalhdlnbpafiamejdnhcphjbkeiagm"="None"
+"eimadpbcbfnmbkopoojfekhnkhdbieeh"="None"
+"mpbjkejclgfgadiemmefgebjfooflfhl"="None"
+"jinjaccalgkegednnccohejagnlnfdag"="None"
+"padekgcemlokbadohgkifijomclgjgif"="{'initial_state': 'disabled'}"
+"hlkenndednhfkekhgcdicdfddnkalmdm"="{'initial_state': 'disabled'}"
+"aefehdhdciieocakfobpaaolhipkcpgc"="{'initial_state': 'disabled'}"
+"bpoadfkcbjbfhfodiogcnhhhpibjhbnh"="{'initial_state': 'disabled'}"
+"ikkeapgomkpbcpaiompapjdlhmafgkpg"="{'initial_state': 'disabled'}"
+"bhghoamapcdpbohphigoooaddinpkbai"="{'initial_state': 'disabled'}"
+"ncndcebmkibkhopclfdjfacgfholcghi"="{'initial_state': 'disabled'}"
+
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionInstallForcelist]
 "1"="odfafepnkmbhccpbejgmiehpchacaeak"
 "2"="djkjpnciiommncecmdefpdllknjdmmmo"
 "3"="kkacdgacpkediooahopgcbdahlpipheh"
 "4"="ihknoknoahjhldmpdoajjdkfjhddgpcd"
-
-[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionInstallAllowlist]
-"1"="padekgcemlokbadohgkifijomclgjgif"
-"2"="hlkenndednhfkekhgcdicdfddnkalmdm"
-"3"="aefehdhdciieocakfobpaaolhipkcpgc"
-"4"="bpoadfkcbjbfhfodiogcnhhhpibjhbnh"
-"5"="ikkeapgomkpbcpaiompapjdlhmafgkpg"

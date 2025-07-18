@@ -39,17 +39,36 @@
   "RelatedWebsiteSetsEnabled": false,
   "ShoppingListEnabled": false,
   "ExtensionManifestV2Availability": 2,
-  "ExtensionInstallForcelist": [
-    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-    "eimadpbcbfnmbkopoojfekhnkhdbieeh",
-    "mpbjkejclgfgadiemmefgebjfooflfhl",
-    "jinjaccalgkegednnccohejagnlnfdag"
-  ],
-  "ExtensionInstallAllowlist": [
-    "padekgcemlokbadohgkifijomclgjgif",
-    "hlkenndednhfkekhgcdicdfddnkalmdm",
-    "aefehdhdciieocakfobpaaolhipkcpgc",
-    "bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
-    "ikkeapgomkpbcpaiompapjdlhmafgkpg"
-  ]
+  "ExtensionSettings": {
+    "*": {
+      "installation_mode": "normal",
+      "file_access": "force_on",
+      "run_in_incognito": "force_on"
+    },
+    "cjpalhdlnbpafiamejdnhcphjbkeiagm": null,
+    "eimadpbcbfnmbkopoojfekhnkhdbieeh": null,
+    "mpbjkejclgfgadiemmefgebjfooflfhl": null,
+    "jinjaccalgkegednnccohejagnlnfdag": null,
+    "padekgcemlokbadohgkifijomclgjgif": {
+      "initial_state": "disabled"
+    },
+    "hlkenndednhfkekhgcdicdfddnkalmdm": {
+      "initial_state": "disabled"
+    },
+    "aefehdhdciieocakfobpaaolhipkcpgc": {
+      "initial_state": "disabled"
+    },
+    "bpoadfkcbjbfhfodiogcnhhhpibjhbnh": {
+      "initial_state": "disabled"
+    },
+    "ikkeapgomkpbcpaiompapjdlhmafgkpg": {
+      "initial_state": "disabled"
+    },
+    "bhghoamapcdpbohphigoooaddinpkbai": {
+      "initial_state": "disabled"
+    },
+    "ncndcebmkibkhopclfdjfacgfholcghi": {
+      "initial_state": "disabled"
+    }
+  }
 }
