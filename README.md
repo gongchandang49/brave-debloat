@@ -8,15 +8,6 @@ A tool to generate policies for Chromium-based browsers (Chrome, Brave, and Edge
 - Removes unnecessary features and pre-installed bloatware
 - Blocks promotional content and unnecessary UI elements
 - Maintains browser functionality while reducing resource usage
-- Pre-configures essential extensions:
-  - uBlock Origin
-  - Cookie AutoDelete
-  - Don't f*** with paste
-  - I still don't care about cookies
-  - SponsorBlock
-  - BlockTube
-  - BlankTab
-  - Decentraleyes
 
 ### Supported Browsers
 
