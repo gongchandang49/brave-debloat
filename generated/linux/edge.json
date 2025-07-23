@@ -122,7 +122,7 @@
   ],
   "AutofillCreditCardEnabled": false,
   "BackgroundModeEnabled": false,
-  "BrowserGuestModeEnabled": false,
+  "BrowserGuestModeEnabled": true,
   "BrowserSignin": 0,
   "BuiltInDnsClientEnabled": false,
   "DefaultBrowserSettingEnabled": false,

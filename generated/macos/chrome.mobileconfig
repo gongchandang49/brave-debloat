@@ -90,7 +90,7 @@
 			<key>BackgroundModeEnabled</key>
 			<false/>
 			<key>BrowserGuestModeEnabled</key>
-			<false/>
+			<true/>
 			<key>BrowserSignin</key>
 			<integer>0</integer>
 			<key>BuiltInDnsClientEnabled</key>
